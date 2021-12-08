@@ -1,1 +1,5 @@
 # Final-Project
+In the file Snake1.py, it is the complete version for our snake game with python. We finalized our snake game with colored boxes for the snake, user interface with the keys ASDW and the arrow keys, and the speed can be changed from the code tick(). 
+In our presentation, we mentioned that we tried the second approach to achieve snake head with emojis, and we created the body parts by drawing and changing their formats to png in the size of 24x24.The file head.png, body.png, tail.png, and curve.png is the png files of the body parts.
+The file import pygame.py is the trial and error version of the second approach. By changing the body rotations of each part of the body images, the snake with png is successfully created. 
+However, we decided that it will not be ideal since the random food generated in boxes (rows and columns) are not able to be appended to the snake due to unmatching form. Hence, we used the usual colored boxes for the snake so that the snake can append and increase in length.
